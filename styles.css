@@ -54,5 +54,8 @@ button:hover{
 }
 article{
     width: 40vw;
-    text-align: center;
+   
+    background-color: grey;
+    border-radius: 50px;
+    margin: 0vw 1vw 0vw 0vw;
 }
