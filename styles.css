@@ -18,10 +18,12 @@ body{
     margin-bottom: 1vw;
 }
 .form{
-    width: 40vw;
+    width: 50vw;
     border: 2px solid black;
     padding-bottom: 1vw;
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 .flex-container{
     display: flex;
@@ -29,7 +31,7 @@ body{
 .output{
     border: 2px solid black;
     margin: 0vw 1vw 0vw 0vw;
-    width: 60vw;
+    width: 50vw;
 }
 #name{
     background-color: rgb(186, 203, 235);
