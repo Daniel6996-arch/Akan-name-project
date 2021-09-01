@@ -23,8 +23,8 @@
 }
 .output{
     border: 2px solid black;
-    margin: 0vw 1vw 0vw 1vw;
-    width: 40vw;
+    margin: 0vw 1vw 0vw 0vw;
+    width: 60vw;
 }
 #name{
     background-color: rgb(186, 203, 235);
@@ -38,4 +38,8 @@
     position: relative;
     left: 7vw;
     font-size: 1.2rem;
+}
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 5px grey;
 }
