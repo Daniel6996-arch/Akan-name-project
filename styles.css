@@ -6,12 +6,36 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: grey;
 }
-.cen{
+.cen, #name{
     text-align: center;
 }
 .border{
     border: 2px solid black;
+    margin-bottom: 1vw;
 }
 .form{
-    width: 50vw;
+    width: 40vw;
+    border: 2px solid black;
+    padding-bottom: 1vw;
+}
+.flex-container{
+    display: flex;
+}
+.output{
+    border: 2px solid black;
+    margin: 0vw 1vw 0vw 1vw;
+    width: 40vw;
+}
+#name{
+    background-color: rgb(186, 203, 235);
+    color: rgb(139, 67, 81);
+    margin: 0vw 8vw;
+}
+.btn{
+    color: rgb(25, 25, 99);
+    background-color: rgb(165, 152, 120);
+    border-radius: 50px;
+    position: relative;
+    left: 7vw;
+    font-size: 1.2rem;
 }
