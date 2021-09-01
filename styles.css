@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(212, 208, 208);
+    
+}
 .container{
     margin-left: 10vw;
     margin-right: 5vw;
@@ -17,6 +21,7 @@
     width: 40vw;
     border: 2px solid black;
     padding-bottom: 1vw;
+    font-family: 'Courier New', Courier, monospace;
 }
 .flex-container{
     display: flex;
