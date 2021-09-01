@@ -1,0 +1,17 @@
+.container{
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+.center{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.cen{
+    text-align: center;
+}
+.border{
+    border: 2px solid black;
+}
+.form{
+    width: 50vw;
+}
