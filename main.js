@@ -25,11 +25,17 @@ var dayOfWeek = Math.floor((((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD)%7);
     //console.log(option)
      if(option == "Male"){
          //console.log('male')
-         console.log(maleName[dayOfWeek]);
+         //console.log(maleName[dayOfWeek]);
+         var ans = maleName[dayOfWeek];
+         console.log(ans)
      }else{
          //console.log('female')
-         console.log(femaleName[dayOfWeek]);
+         //console.log(femaleName[dayOfWeek]);
+         var ans = femaleName[dayOfWeek];
+         console.log(ans);
      }
+     document.getElementById('name').textContent = ans;
+    
 
 });
 
