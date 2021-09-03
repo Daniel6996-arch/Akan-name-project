@@ -1,15 +1,18 @@
-const maleName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-const femaleName = ['Akosua', 'Adwoa', 'Abenaa','Akua', 'Yaa', 'Afua', 'Ama'];
+var numbers = Array(523,3452);
+let counts = [0,0]
 
-
-
-const randomNumber = getRandomNumber();
-function getRandomNumber(){
-if(maleSelection = true){
-    return Math.floor(Math.random() * maleName.length)
+for (let i = 0; i < 100; i++) {
+    let choice = numbers[Math.floor(Math.random()*numbers.length)];
+    if (choice ===  523) counts[0]++
+    else if (choice == 3452) counts[1]++
 }
-if(femaleSelection = true){
-    return Math.floor(Math.random() * femaleName.length)
-}
-};
-console.log(femaleName[randomNumber]);
+
+// counts should be about even
+
+
+var btn = document.getElementById('btn');
+
+btn.addEventListener('click', function(){
+    console.log(counts);
+
+});
