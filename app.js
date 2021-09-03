@@ -1,18 +1,34 @@
-var numbers = Array(523,3452);
-let counts = [0,0]
+var maleName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 
-for (let i = 0; i < 100; i++) {
-    let choice = numbers[Math.floor(Math.random()*numbers.length)];
-    if (choice ===  523) counts[0]++
-    else if (choice == 3452) counts[1]++
-}
-
-// counts should be about even
-
+var femaleName = ['Akosua', 'Adwoa', 'Abenaa','Akua', 'Yaa', 'Afua', 'Ama'];
 
 var btn = document.getElementById('btn');
 
+
+
 btn.addEventListener('click', function(){
-    console.log(counts);
+
+var CC = document.getElementById('year').value.slice(0,2);
+var YY = document.getElementById('year').value.slice(2,4);
+var MM = document.getElementById('month').value;
+var DD = document.getElementById('day').value; 
+var dayOfWeek = Math.floor((((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD)%7);
+
+    if(DD>31 || DD<=0 ){
+        alert("Invalid date")
+    }
+    if(MM<=0 || MM>12){
+        alert("Invalid month")
+    }
+     console.log(dayOfWeek, femaleName[dayOfWeek]);
 
 });
+
+ 
+
+  
+
+   
+
+
+ 
