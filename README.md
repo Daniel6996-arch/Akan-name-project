@@ -5,12 +5,12 @@
 ## link
 https://daniel6996-arch.github.io/Akan-name-project/
 ## Setup/Installation Requirements
-This website best works on latest version browsers that support javascript.
-Older browsers my work ineffectively.
+This website best works on latest version browsers that support javascript.   
+Older browsers my work ineffectively.   
 This website is dependency free therefore depends on NO other code or application.
 ## Technologies Used
-HTML5 for coding landing page.
-CSS for styling the landing page.
+HTML5 for coding landing page.   
+CSS for styling the landing page.  
 JavaScript for page functionality and interraction.
 ## Support and contact details
 contact@daniel.nyutu@student.moringaschool.com
