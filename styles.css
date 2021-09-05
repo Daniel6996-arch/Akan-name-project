@@ -25,6 +25,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
+    margin-left: 1vw;
 }
 .flex-container{
     display: flex;
@@ -54,7 +55,6 @@ button:hover{
 }
 article{
     width: 40vw;
-   
     background-color: grey;
     border-radius: 50px;
     margin: 0vw 1vw 1vw 0vw;
