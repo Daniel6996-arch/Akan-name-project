@@ -2,16 +2,22 @@
 ## Description
 #### {This is an application that assigns a user an Akan name according to the day of week they were born} {03/9/2021}
 #### Authored By **{Daniel6996-arch}**
+# Behavior-Driven Development
+*The app must be able to take input from the user.      
+*The app should be able to validated user's input.    
+*The app should be able calculate the values and return a number.  
+*The app should be able to assign that number to an Akan name.   
+*The app should be able to output the answer for the user to see.  
 ## link
 https://daniel6996-arch.github.io/Akan-name-project/
 ## Setup/Installation Requirements
-This website best works on latest version browsers that support javascript.   
-Older browsers my work ineffectively.   
-This website is dependency free therefore depends on NO other code or application.
+*This website best works on latest version browsers that support javascript.   
+*Older browsers my work ineffectively.   
+*This website is dependency free therefore depends on NO other code or application.
 ## Technologies Used
-HTML5 for coding landing page.   
-CSS for styling the landing page.  
-JavaScript for page functionality and interraction.
+*HTML5 for coding landing page.   
+*CSS for styling the landing page.  
+*JavaScript for page functionality and interraction.
 ## Support and contact details
 contact@daniel.nyutu@student.moringaschool.com
 ### License 
