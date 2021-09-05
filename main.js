@@ -10,7 +10,7 @@ btn.addEventListener('click', function(){
     var MM = document.getElementById('month').value;
     var DD = document.getElementById('day').value; 
 
-    var dayOfWeek = Math.floor((((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD)%7);
+    var dayOfWeek = Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
         if(YY<=0){
             alert("Invalid Year!!");
             location.reload()
