@@ -11,11 +11,17 @@ btn.addEventListener('click', function(){
     var DD = document.getElementById('day').value; 
 
     var dayOfWeek = Math.floor((((CC/4)-2*CC-1)+(5*YY/4)+(26*(MM+1)/10)+DD)%7);
+        if(YY<=0){
+            alert("Invalid Year!!");
+            location.reload()
+        }
         if(DD>31 || DD<=0){
-            alert("Invalid date");
+            alert("Invalid date!!");
+            location.reload()
         }
         if(MM<=0 || MM>12){
-            IsEmpty();
+            alert("Invalid month!!");
+            location.reload()
         };
     var option = select[select.selectedIndex].text;
         //console.log(option)
@@ -30,7 +36,11 @@ btn.addEventListener('click', function(){
                 //console.log(femaleName[dayOfWeek]);
                 var ans = femaleName[dayOfWeek];
                 //console.log(ans);
-     }
+            }
+            else if(option == ''){
+                 alert('Empty gender!!')
+                 location.reload();
+            }
    
       document.getElementById('name').textContent = ans;
       document.getElementById('output').style.background = 'green';
@@ -38,10 +48,8 @@ btn.addEventListener('click', function(){
       document.getElementById('month').value= '';
       document.getElementById('day').value= '';
 });
-function IsEmpty() {
-      alert("Invalid month");
-      location.reload()
-  }
+
+     
 
  
 

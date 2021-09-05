@@ -59,3 +59,6 @@ article{
     border-radius: 50px;
     margin: 0vw 1vw 1vw 0vw;
 }
+section h1{
+    font-size: 2rem;
+}
