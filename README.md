@@ -1,13 +1,17 @@
 # **Akan Namer**
-#### {This is a portfolio landing page for my projects}, {29/8/2021}
-#### By **{Daniel6996-arch}**
-## link
-https://daniel6996-arch.github.io/Portfolio-landing-page/
 ## Description
-{This is a portfolio website is about my websites.}
+#### {This is an application that assigns a user an Akan name according to the day of week they were born} {03/9/2021}
+#### Authored By **{Daniel6996-arch}**
+## link
+https://daniel6996-arch.github.io/Akan-name-project/
 ## Setup/Installation Requirements
-*This website best works on latest version browsers.
+*This website best works on latest version browsers that support javascript.
+*Older browsers my work ineffectively.
 *This website is dependency free therefore depends on NO other code or application.
+## Technologies Used
+*HTML5 for coding landing page.
+*CSS for styling the landing page.
+*JavaScript for page functionality and interraction.
 ## Support and contact details
 contact@daniel.nyutu@student.moringaschool.com
 ### License 
