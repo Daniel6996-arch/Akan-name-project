@@ -2,7 +2,7 @@
 ## Description
 #### {This is an application that assigns a user an Akan name according to the day of week they were born} {03/9/2021}
 #### Authored By **{Daniel6996-arch}**
-# Behavior-Driven Development
+## Behavior-Driven Development
 *The app must be able to take input from the user.      
 *The app should be able to validated user's input.    
 *The app should be able calculate the values and return a number.  
