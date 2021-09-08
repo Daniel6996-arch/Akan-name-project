@@ -5,10 +5,10 @@ var select = document.getElementById('gender');
 
 
 btn.addEventListener('click', function(){
-    var CC = document.getElementById('year').value.slice(0,2);
-    var YY = document.getElementById('year').value.slice(2,4);
-    var MM = document.getElementById('month').value;
-    var DD = document.getElementById('day').value; 
+    var CC = parseInt(document.getElementById('year').value.slice(0,2));
+    var YY = parseInt(document.getElementById('year').value.slice(2,4));
+    var MM = parseInt(document.getElementById('month').value);
+    var DD = parseInt(document.getElementById('day').value); 
 
     var dayOfWeek = Math.floor(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
         if(YY<=0){
